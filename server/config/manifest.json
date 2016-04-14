@@ -1,0 +1,27 @@
+{ 
+  	"server": {
+   	 	"app": {
+     		 "slogan": "We push the fashion forward"
+    	}
+  	},
+	"connections": [
+		{
+      		"port": 8000
+  		}
+  	],
+  	"registrations" : [
+  			{
+            	"plugin" :  "vision"
+           	},
+  			{
+            	"plugin" :  {
+            		"register" : "../plugins/template-views"
+            	}
+           	},
+           	{
+            	"plugin" : {
+            	    "register": "../web-modules/home"
+           		}
+       		}
+  	]
+}
