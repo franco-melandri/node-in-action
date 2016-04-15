@@ -22,6 +22,11 @@
             	"plugin" : {
             	    "register": "../web-modules/home"
            		}
+       		},
+           	{
+            	"plugin" : {
+            	    "register": "../web-modules/about"
+           		}
        		}
   	]
 }
